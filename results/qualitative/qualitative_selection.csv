@@ -1,0 +1,5 @@
+﻿"scenario","coco_image_id","source_image_id","image_path","selection_score","shared_class_gt_boxes","raw_retained_detections","balanced_retained_detections","compact_retained_detections","scenario_median_gt_boxes","scenario_median_balanced_detections","scenario_median_compact_detections"
+"daytime_normal","78","daytime_normal__bf70a9e2-55b26931","images/daytime_normal__bf70a9e2-55b26931.jpg","0.125","7","263","10","7","6.5","10.0","7.0"
+"night_lowlight","125","night_lowlight__bc5c87da-f8979312","images/night_lowlight__bc5c87da-f8979312.jpg","0.15384615384615385","11","269","11","8","11.0","12.5","8.0"
+"crowded_occluded","32","crowded_occluded__c0e834fd-74036e84","images/crowded_occluded__c0e834fd-74036e84.jpg","0.3430232558139535","24","268","19","16","25.0","21.0","16.0"
+"small_distant","179","small_distant__bf343a92-8db05f89","images/small_distant__bf343a92-8db05f89.jpg","0.15838509316770186","15","279","17","13","15.0","16.5","12.5"

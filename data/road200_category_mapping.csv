@@ -1,0 +1,9 @@
+bdd100k_category,evaluation_category,coco_pretrained_output
+person,person,person
+bike,bicycle,bicycle
+car,car,car
+motor,motorcycle,motorcycle
+bus,bus,bus
+train,train,train
+truck,truck,truck
+traffic light,traffic light,traffic light

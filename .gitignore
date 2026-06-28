@@ -1,0 +1,50 @@
+# Raw datasets, local subsets, and annotations
+data/raw/
+data/bdd100k/
+subsets/
+!data/README.md
+!data/road200_manifest.csv
+!data/road200_category_mapping.csv
+
+# Model weights and exported models
+*.pt
+*.pth
+*.onnx
+*.engine
+*.ckpt
+*.safetensors
+
+# Python, Conda, caches, and experiment logs
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.hf/
+hf_cache/
+wandb/
+runs/
+.ipynb_checkpoints/
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# LaTeX build artefacts
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.out
+paper/*.toc
+paper/*.synctex.gz
+paper/*.fdb_latexmk
+paper/*.fls
+
+# Temporary archives and staging files
+*.tmp
+*.bak
+*.swp
