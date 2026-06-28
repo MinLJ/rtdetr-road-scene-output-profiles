@@ -381,7 +381,7 @@ Compact profile & 0.35 & 0.55 & 11.23 \\
 
 Figure~\ref{fig:qualitative_crowded} presents the deterministic crowded/occluded qualitative case selected by the procedure described in Section~3.5. The image contains 24 shared-class ground-truth boxes. The raw metric baseline retains 268 ranked candidate detections, which is appropriate for AP calculation but is not suitable as a directly readable visual output. The balanced profile retains 19 detections, while the compact profile retains 16.
 
-The example is consistent with the automatic ablation: thresholding and external class-aware NMS substantially reduce output density. It should not be interpreted as proof that a visually cleaner image is necessarily more accurate. Instead, the example illustrates why the raw AP-ranking output and the deployment-oriented profiles are reported separately. The small/distant qualitative example is retained in the supplementary material because it more clearly demonstrates the potential completeness loss introduced by the compact profile.
+The example is consistent with the automatic ablation: thresholding and external class-aware NMS substantially reduce output density. It should not be interpreted as proof that a visually cleaner image is necessarily more accurate. Instead, the example illustrates why the raw AP-ranking output and the deployment-oriented profiles are reported separately. The small/distant qualitative example is provided in the accompanying repository because it more clearly demonstrates the potential completeness loss introduced by the compact profile.
 
 \begin{figure}[H]
 \centering
@@ -440,6 +440,9 @@ The study is limited to a 200-image case-study benchmark, two pretrained detecto
 
 \subsubsection*{Acknowledgements}
 The authors thank the module teaching team and colleagues who provided constructive feedback during the development of this work.
+
+\subsubsection*{Data and Code Availability}
+The Road200 manifest, category mapping, reported evaluation summaries, supplementary qualitative artifacts, and experimental scripts are available at \url{https://github.com/MinLJ/rtdetr-road-scene-output-profiles}. Raw BDD100K images and source annotations remain subject to their original dataset terms.
 
 \bibliographystyle{splncs04}
 \bibliography{references}
